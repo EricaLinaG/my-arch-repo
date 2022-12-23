@@ -1,10 +1,9 @@
-
 make a list of packages.
 curl them into a place
 build them
 add them to the repo
 
-be able 
+be able
   to install the repo into pacman.conf
   clean everything out
   download everything.
@@ -18,10 +17,26 @@ be able
 
 curl foo > foo
 
+# needed by 2011 17" macbook pro, 8,2.
 https://aur.archlinux.org/packages/b43-firmware
-https://aur.archlinux.org/packages/yay
+https://aur.archlinux.org/packages/b43-fwcutter
 
-# The root folder you want to put stuff for 
+https://aur.archlinux.org/packages/yay
+b43-firmware
+b43-fwcutter
+yay
+
+Add to this list... - these were needed by my Archiso
+
+# official packages.
+broadcom-wl
+git
+vi
+networkmanager
+nm-connection-editor
+
+
+# The root folder you want to put stuff for
 # project path to say where everything is checked out to.
 project-base := ~/play/my-arch-repo/
 
